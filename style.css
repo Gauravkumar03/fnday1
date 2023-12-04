@@ -1,0 +1,63 @@
+.employer {
+    font-size: larger;
+    cursor: pointer;
+    width: 5em;
+    display: flex;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.editable-text {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.inner {
+    padding: 2%;
+}
+
+#employer-btn {
+    color: green;
+    cursor: pointer;
+    font-size: large;
+    width: 5%;
+    margin: auto;
+    margin-top: 5px;
+    border-left: 1px solid black;
+    display: none;
+}
+
+.disappear {
+    display: none;
+}
+
+.appear {
+    display: block;
+}
+
+.main {
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+#branches {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+#branches div {
+    margin: 1px solid black;
+}
+
+.editable-text {
+    width: auto;
+}
+
+.plus-children {
+    color: blue;
+    border-left: 1px solid red
+}
